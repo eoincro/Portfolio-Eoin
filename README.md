@@ -1,27 +1,56 @@
-# PortfolioEoin
+# Portfolio Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.6.
+This is a portfolio web app where you can present yourself online.
 
-## Development server
+## Instructions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Quick Start
 
-## Code scaffolding
+Project requirements :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Node.js and Npm.
+* Angular cli.
 
-## Build
+```sh
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Install dependencies
+cd [project folder] && npm install
 
-## Running unit tests
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before you serve the app, check out the ```services/profile-data.service``` and modify the ```data object``` with your personal data. Then run the command below :
 
-## Running end-to-end tests
+```sh
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# Serve the app
+ng serve -o
 
-## Further help
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+For more informations checkout the [Angular docs](https://angular.io/docs).
+
+## Creators
+
+    Mohamed Aimane Skhairi
+    skhairimedaimane@gmail.com
+
+## Credits
+
+    Design :
+        HTML5 UP (html5up.net)
+
+    Images:
+        Unsplash (unsplash.com)
+        Icons8 (icons8.com)
+
+    Icons:
+        Font Awesome (fontawesome.io)
+
+    Other:
+        Angular (angular.io)
+        jQuery (jquery.com)
+        Responsive Tools (github.com/ajlkn/responsive-tools)
+
+## License
+
+This project are licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).

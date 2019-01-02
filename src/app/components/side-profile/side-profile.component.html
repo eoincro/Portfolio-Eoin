@@ -1,0 +1,32 @@
+<header id="header">
+  <div class="inner">
+    <!--<a [routerLink]="['/']" routerLinkActive="router-link-active"  class="image avatar"><img src="{{profile.personalInfos.avatar}}" alt=""></a>-->
+    <h1><strong>I am {{profile.personalInfos.fullname}}</strong></h1>
+
+    <br>
+  </div>
+  <div id="page_wrap">
+
+    <div class="banner">
+      <div class="typed_wrap">
+        <h1>I am <span class="typed-text"></span></h1>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer id="footer">
+    <div class="inner">
+      <ul class="icons">
+        <li *ngFor="let link of profile.links">
+          <a [attr.href]="link.url" [attr.aria-label]="link.name" [class]="link.icon" target="_blank" rel="noopener noreferrer">
+            <span class="label">{{link.name}}</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>Eoin C. Cronin. © 2019</li>
+      </ul>
+    </div>
+  </footer>
+</header>

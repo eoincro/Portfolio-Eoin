@@ -1,0 +1,20 @@
+<div id="main">
+    <section id="one">
+      <header class="major">
+        <h2 [innerHTML]="profile.title"></h2>
+      </header>
+      <p>{{profile.description}}</p>
+      <ul class="actions">
+        <li><a [routerLink]="['/about']" routerLinkActive="router-link-active"  class="button">Learn More</a></li>
+      </ul>
+    </section>
+    <section id="two">
+      <app-projects></app-projects>
+    </section>
+    <section id="three">
+      <app-contact></app-contact>
+    </section>
+    <footer>
+      <p><strong>Eoin C Cronin. © 2019</strong> | <small>Design by HTML5 UP</small></p>
+    </footer>
+</div>
