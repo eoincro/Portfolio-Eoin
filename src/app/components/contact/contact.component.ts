@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
     this.profile = this.profileData.data;
     this.emailhref = `mailto:${this.profile.personalInfos.email}`;
-    this.description = 'Let’s build your future solution, tell us about your dream today and let’s do something amazing.';
+    this.description = '';
   }
 
 }

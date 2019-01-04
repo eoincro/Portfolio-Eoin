@@ -7,8 +7,7 @@ import { SideProfileComponent } from './components/side-profile/side-profile.com
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { FullPortfolioComponent } from './components/full-portfolio/full-portfolio.component';
-import { AboutComponent } from './components/about/about.component';
+
 
 @NgModule({
   declarations: [
@@ -16,9 +15,7 @@ import { AboutComponent } from './components/about/about.component';
     SideProfileComponent,
     HomeComponent,
     ProjectsComponent,
-    ContactComponent,
-    FullPortfolioComponent,
-    AboutComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,

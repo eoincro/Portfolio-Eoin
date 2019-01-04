@@ -10,7 +10,7 @@ export class ProfileDataService {
 
   constructor() {
     this.data = {
-      title: 'Software engineer &nbsp;&bull;&nbsp; Frontend Developer <br>&nbsp;&bull;&nbsp; Mobile Web enthusiast.',
+      title: 'Software engineer &nbsp;&bull;&nbsp; Frontend Developer',
       subtitle: '',
       description: 'I have always been passionate about computer science and discovering new technologies to build innovative solutions.',
       personalInfos: {

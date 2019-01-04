@@ -1,12 +1,24 @@
+<div id="filler">
+
+</div>
 <div id="main">
+  <div id="filler">
+
+  </div>
+  <header class="major">
+    <h2 [innerHTML]="profile.title"></h2>
+  </header>
     <section id="one">
-      <header class="major">
-        <h2 [innerHTML]="profile.title"></h2>
-      </header>
-      <p>{{profile.description}}</p>
-      <ul class="actions">
-        <li><a [routerLink]="['/about']" routerLinkActive="router-link-active"  class="button">Learn More</a></li>
-      </ul>
+      <section>
+        <p>Who Am I?</p>
+        <p><span class="image left"><img src="../../../assets/images/avatar.jpg" alt="" /></span>Hi my name is Eoin Cronin
+          I am a Software engineer from the south of Ireland. I graduated from a degree in computer science from Cork
+          Institute of Technology in 2018. I have a keen interest in frontend technology and enjoy keeping up to date on the latest trends.</p>
+      </section>
+      <!--<p>{{profile.description}}</p>-->
+      <!--<ul class="actions">-->
+        <!--<li><a [routerLink]="['/about']" routerLinkActive="router-link-active"  class="button">Learn More</a></li>-->
+      <!--</ul>-->
     </section>
     <section id="two">
       <app-projects></app-projects>
@@ -15,6 +27,6 @@
       <app-contact></app-contact>
     </section>
     <footer>
-      <p><strong>Eoin C Cronin. © 2019</strong> | <small>Design by HTML5 UP</small></p>
+      <p><strong>Eoin C Cronin</strong> | <small>© 2019</small></p>
     </footer>
 </div>
