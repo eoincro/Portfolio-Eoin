@@ -1,6 +1,6 @@
 # Portfolio Web App
 
-This is a portfolio web app where you can present yourself online.
+This is a personal portfolio web app.
 
 ## Instructions
 
