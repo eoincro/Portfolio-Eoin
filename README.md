@@ -29,10 +29,6 @@ ng serve -o
 
 For more informations checkout the [Angular docs](https://angular.io/docs).
 
-## Creators
-
-    Mohamed Aimane Skhairi
-    skhairimedaimane@gmail.com
 
 ## Credits
 
